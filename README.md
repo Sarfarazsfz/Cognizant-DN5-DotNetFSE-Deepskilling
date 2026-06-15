@@ -48,3 +48,32 @@ Week-4-EntityFrameworkCore
 Week-5-ASPNET-Core-WebAPI
 Week-6-Angular
 Week-7-Microservices
+
+| Week | Topic                        | Status         |
+| ---- | ---------------------------- | -------------- |
+| 1    | Design Patterns & SOLID      | ✅ Completed    |
+| 2    | Data Structures & Algorithms | ✅ Completed    |
+| 3    | Advanced SQL                 | 🔄 In Progress |
+| 4    | Entity Framework Core        | ⏳ Pending      |
+| 5    | ASP.NET Core Web API         | ⏳ Pending      |
+| 6    | Angular                      | ⏳ Pending      |
+| 7    | Microservices                | ⏳ Pending      |
+
+
+Key Learnings
+Applied SOLID principles
+Implemented Design Patterns
+Practiced searching and recursion algorithms
+Improved code organization and maintainability
+Developed hands-on solutions for real-world scenarios
+Author
+
+Md Sarfaraz Alam
+
+B.Tech Computer Science & Engineering
+
+GitHub: https://github.com/Sarfarazsfz
+
+Note
+
+This repository is maintained for educational and learning purposes as part of the Cognizant Digital Nurture 5.0 Deep Skilling Program.
