@@ -1,0 +1,15 @@
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\bin\Debug\net10.0\FactoryMethodPatternExample.exe
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\bin\Debug\net10.0\FactoryMethodPatternExample.deps.json
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\bin\Debug\net10.0\FactoryMethodPatternExample.runtimeconfig.json
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\bin\Debug\net10.0\FactoryMethodPatternExample.dll
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\bin\Debug\net10.0\FactoryMethodPatternExample.pdb
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\obj\Debug\net10.0\FactoryMethodPatternExample.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\obj\Debug\net10.0\FactoryMethodPatternExample.AssemblyInfoInputs.cache
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\obj\Debug\net10.0\FactoryMethodPatternExample.AssemblyInfo.cs
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\obj\Debug\net10.0\FactoryMethodPatternExample.csproj.CoreCompileInputs.cache
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\obj\Debug\net10.0\FactoryMethodPatternExample.sourcelink.json
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\obj\Debug\net10.0\FactoryMethodPatternExample.dll
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\obj\Debug\net10.0\refint\FactoryMethodPatternExample.dll
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\obj\Debug\net10.0\FactoryMethodPatternExample.pdb
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\obj\Debug\net10.0\FactoryMethodPatternExample.genruntimeconfig.cache
+E:\Cognizant-DN5-DotNetFSE-Deepskilling\Week-1-DesignPatterns\FactoryMethodPatternExample\obj\Debug\net10.0\ref\FactoryMethodPatternExample.dll
