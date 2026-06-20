@@ -29,59 +29,75 @@ The program covers a lot of ground fast — from design patterns and DSA in the 
 
 ## Repository Structure
 
-```
-DN5.0-DeepSkilling-DotNet-FSE/
+```text
+Cognizant-DN5-DotNetFSE-Deepskilling/
 │
-├── Week1-DesignPatterns/
-│   ├── SOLID-Principles/
-│   └── Design-Patterns/
-│       ├── Creational/          (Singleton, Factory, Builder)
-│       ├── Structural/          (Adapter, Decorator, Proxy)
-│       └── Behavioral/          (Observer, Strategy, Command)
-│
-├── Week2-DataStructures-Algorithms/
-│   ├── Arrays/
-│   ├── LinkedList/
-│   ├── Searching/               (Linear Search, Binary Search)
-│   └── Sorting/                 (Bubble, Quick, Merge Sort)
-│
-├── Week3-AdvancedSQL/
-│   ├── WindowFunctions/
+├── Week-1-Engineering-Concepts-And-AdvancedSQL/
+│   ├── Module-1-DesignPatterns/
+│   │   ├── SingletonPatternExample/
+│   │   ├── FactoryMethodPatternExample/
+│   │   ├── BuilderPatternExample/
+│   │   ├── AdapterPatternExample/
+│   │   ├── DecoratorPatternExample/
+│   │   ├── ProxyPatternExample/
+│   │   ├── ObserverPatternExample/
+│   │   ├── StrategyPatternExample/
+│   │   └── CommandPatternExample/
+│   │
+│   ├── Module-2-DataStructures-Algorithms/
+│   │
+│   ├── AdvancedConcepts/
+│   ├── Cursors/
+│   ├── ExceptionHandling/
+│   ├── Functions/
+│   ├── Index/
+│   ├── RetailStoreAdvancedSQL/
 │   ├── StoredProcedures/
-│   ├── Triggers-Cursors/
-│   ├── Transactions/
-│   └── Views-Indexes/
+│   ├── Triggers/
+│   └── Views/
 │
-├── Week4-EntityFrameworkCore/
+├── Week-2-EntityFrameworkCore/
 │   ├── DbContext-Setup/
 │   ├── CRUD-Operations/
 │   ├── LINQ-Queries/
 │   ├── Migrations/
 │   └── Relationships/
 │
-├── Week5-ASPNET-Core-WebAPI/
+├── Week-3-ASPNET-Core-WebAPI/
 │   ├── RESTful-APIs/
 │   ├── JWT-Authentication/
 │   ├── Swagger-Integration/
 │   ├── Exception-Handling/
 │   └── Middleware-Filters/
 │
-├── Week6-Angular/
+├── Week-4-Microservices/
+│   ├── Service-Communication/
+│   ├── API-Gateway/
+│   ├── Service-Discovery/
+│   └── Distributed-Architecture/
+│
+├── Week-5-Angular/
 │   ├── Components-Binding/
 │   ├── Directives-Pipes/
 │   ├── Reactive-Forms/
 │   ├── Routing-Guards/
 │   ├── HttpClient-APIs/
-│   └── RxJS-NgRx/
+│   └── RxJS/
 │
-└── Week7-Microservices-Docker-Git/
-    ├── Microservices-ASPNETCore/
-    ├── Docker-Containerization/
+├── Week-6-Angular-Advanced/
+│   ├── State-Management/
+│   ├── Performance-Optimization/
+│   ├── Testing/
+│   └── Advanced-Angular-Concepts/
+│
+└── Week-7-DevOps-Docker-GenAI/
     ├── Git-VersionControl/
-    └── CI-CD-DevOps/
+    ├── Docker-Containerization/
+    ├── CI-CD/
+    ├── DevOps/
+    ├── Cloud-Fundamentals/
+    └── GenAI-Fundamentals/
 ```
-
----
 
 ## Progress
 
