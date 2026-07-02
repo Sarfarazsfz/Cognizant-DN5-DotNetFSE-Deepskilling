@@ -2,16 +2,18 @@
 using Moq;
 using NUnit.Framework;
 
-
 namespace CustomerComm.Tests;
 
 [TestFixture]
 public class CustomerCommTests
 {
-    [Test]
-    public void SendMailToCustomer_ReturnsTrue()
+    private Mock<IMailSender> mockMailSender = null!;
+    private CustomerCommLib.CustomerComm customerComm = null!;
+
+    [OneTimeSetUp]
+    public void Init()
     {
-        var mockMailSender = new Mock<IMailSender>();
+        mockMailSender = new Mock<IMailSender>();
 
         mockMailSender
             .Setup(x => x.SendMail(
@@ -19,11 +21,14 @@ public class CustomerCommTests
                 It.IsAny<string>()))
             .Returns(true);
 
-        var customerComm =
+        customerComm =
             new CustomerCommLib.CustomerComm(mockMailSender.Object);
+    }
 
-        bool result =
-            customerComm.SendMailToCustomer();
+    [TestCase]
+    public void SendMailToCustomer_ReturnsTrue()
+    {
+        bool result = customerComm.SendMailToCustomer();
 
         Assert.That(result, Is.True);
     }

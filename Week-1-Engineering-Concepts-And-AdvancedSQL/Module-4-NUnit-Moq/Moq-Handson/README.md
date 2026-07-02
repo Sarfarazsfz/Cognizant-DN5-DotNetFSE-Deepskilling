@@ -1,46 +1,37 @@
-# Moq Exercise 1 - Write Testable Code with Moq
+# Moq Hands-On
 
-## Objective
+## Exercise 1 - Write Testable Code with Moq
 
-To test CustomerComm class using Moq and NUnit by mocking the IMailSender dependency.
+### Objective
+Test CustomerComm class using NUnit and Moq by mocking IMailSender.
 
+### Features
+- Mocked IMailSender using Moq
+- Configured SendMail() to accept any string arguments
+- Returned true using mock setup
+- Verified output using Assert
 
+### Output
+![Exercise1](Moq_Exercise1_Output.png)
 
-## Tools \& Technologies
+---
 
-- C#
+## Exercise 2 - NUnit Attributes with Moq
 
-- .NET
+### Objective
+Use NUnit attributes and Moq framework for unit testing.
 
-- NUnit
+### Attributes Used
+- TestFixture
+- OneTimeSetUp
+- TestCase
 
-- Moq
+### Features
+- Mocked IMailSender
+- Configured SendMail() to return true
+- Used OneTimeSetUp for initialization
+- Used TestCase for test execution
+- Asserted result as true
 
-
-
-## Implementation
-
-- Created IMailSender interface.
-
-- Created MailSender class.
-
-- Implemented CustomerComm class using Dependency Injection.
-
-- Created NUnit test project.
-
-- Mocked IMailSender using Moq.
-
-- Configured SendMail() to accept any two string parameters and return true.
-
-- Verified the result using Assert.That().
-
-
-
-## Output
-
-All test cases passed successfully.
-
-
-
-![Output](Moq_Exercise1_Output.png)
-
+### Output
+![Exercise2](Moq_Exercise2_Output.png)
