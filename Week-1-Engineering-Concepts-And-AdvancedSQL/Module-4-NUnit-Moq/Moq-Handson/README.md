@@ -42,5 +42,5 @@ All test cases passed successfully.
 
 
 
-Screenshot: Moq_Exercise1_Output.png
+![Output](Moq_Exercise1_Output.png)
 
