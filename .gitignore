@@ -6,3 +6,6 @@ bin/
 
 obj/
 **/obj/
+
+packages/
+**/packages/
