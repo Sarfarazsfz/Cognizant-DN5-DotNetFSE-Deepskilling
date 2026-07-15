@@ -1,41 +1,33 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RetailInventoryDb;
 
-Console.WriteLine("===== LAB 6 : Update and Delete Records =====");
+Console.WriteLine("===== LAB 7 : LINQ Queries =====");
 
 await using var context = new AppDbContext();
 
-var product =
-    await context.Products
-        .FirstOrDefaultAsync(p => p.Name == "Laptop");
+var filtered = await context.Products
+    .Where(p => p.Price > 1000)
+    .OrderByDescending(p => p.Price)
+    .ToListAsync();
 
-if (product != null)
+Console.WriteLine("\nFiltered and Sorted Products:");
+
+foreach (var product in filtered)
 {
-    product.Price = 70000;
-
-    await context.SaveChangesAsync();
-
-    Console.WriteLine("Laptop price updated to ₹70000");
+    Console.WriteLine($"{product.Name} - ₹{product.Price}");
 }
 
-var toDelete =
-    await context.Products
-        .FirstOrDefaultAsync(p => p.Name == "Rice Bag");
+var productDTOs = await context.Products
+    .Select(p => new
+    {
+        p.Name,
+        p.Price
+    })
+    .ToListAsync();
 
-if (toDelete != null)
+Console.WriteLine("\nProjected DTO Data:");
+
+foreach (var dto in productDTOs)
 {
-    context.Products.Remove(toDelete);
-
-    await context.SaveChangesAsync();
-
-    Console.WriteLine("Rice Bag deleted successfully");
-}
-
-Console.WriteLine("\nCurrent Products:");
-
-var products = await context.Products.ToListAsync();
-
-foreach (var p in products)
-{
-    Console.WriteLine($"{p.Name} - ₹{p.Price}");
+    Console.WriteLine($"{dto.Name} - ₹{dto.Price}");
 }
