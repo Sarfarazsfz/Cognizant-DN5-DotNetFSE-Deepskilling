@@ -1,20 +1,27 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RetailInventoryDb;
 
-Console.WriteLine("RetailInventoryDb - Lab 4");
+Console.WriteLine("===== LAB 5 : Retrieving Data =====");
 
 await using var context = new AppDbContext();
 
-var electronics = new Category { Name = "Electronics" };
-var groceries = new Category { Name = "Groceries" };
+Console.WriteLine("\nAll Products:");
 
-await context.Categories.AddRangeAsync(electronics, groceries);
+var products = await context.Products.ToListAsync();
 
-var product1 = new Product { Name = "Laptop", Price = 75000, Category = electronics };
-var product2 = new Product { Name = "Rice Bag", Price = 1200, Category = groceries };
+foreach (var p in products)
+{
+    Console.WriteLine($"{p.Name} - ₹{p.Price}");
+}
 
-await context.Products.AddRangeAsync(product1, product2);
+Console.WriteLine();
 
-await context.SaveChangesAsync();
+var product = await context.Products.FindAsync(1);
 
-Console.WriteLine("Initial data inserted successfully.");
+Console.WriteLine($"Found: {product?.Name}");
+
+var expensive =
+    await context.Products
+        .FirstOrDefaultAsync(p => p.Price > 50000);
+
+Console.WriteLine($"Expensive: {expensive?.Name}");
