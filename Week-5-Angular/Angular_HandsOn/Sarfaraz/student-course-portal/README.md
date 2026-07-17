@@ -38,43 +38,43 @@ The objective of this project is to provide a student portal where users can bro
 
 ### Dashboard
 
-![Dashboard](Submission-Screenshots/App/01-Dashboard.png)
+![Dashboard](Submission-Screenshots/01-Dashboard.png)
 
 ### Course Catalog
 
-![Course Catalog](Submission-Screenshots/App/02-Course-Catalog.png)
+![Course Catalog](Submission-Screenshots/02-Course-Catalog.png)
 
 ### Enrollment Form
 
-![Enrollment Form](Submission-Screenshots/App/03-Enrollment-Form.png)
+![Enrollment Form](Submission-Screenshots/03-Enrollment-Form.png)
 
 ### Reactive Enrollment Form
 
-![Reactive Enrollment Form](Submission-Screenshots/App/04-Reactive-Enrollment.png)
+![Reactive Enrollment Form](Submission-Screenshots/04-Reactive-Enrollment.png)
 
 ### Student Profile
 
-![Student Profile](Submission-Screenshots/App/05-Profile-Page.png)
+![Student Profile](Submission-Screenshots/05-Profile-Page.png)
 
 ### NgRx Redux DevTools
 
-![NgRx Redux DevTools](Submission-Screenshots/DevTools/06-NgRx-Redux-DevTools.png)
+![NgRx Redux DevTools](Submission-Screenshots/06-NgRx-Redux-DevTools.png)
 
 ### Unit Test Results
 
-![Unit Test Results](Submission-Screenshots/Testing/07-ng-test-success.png)
+![Unit Test Results](Submission-Screenshots/07-ng-test-success.png)
 
 ### Code Coverage Report
 
-![Code Coverage Report](Submission-Screenshots/Testing/08-code-coverage-success.png)
+![Code Coverage Report](Submission-Screenshots/08-code-coverage-success.png)
 
 ### JSON Server Running
 
-![JSON Server Running](Submission-Screenshots/Server/09-JSON-Server-Running.png)
+![JSON Server Running](Submission-Screenshots/09-JSON-Server-Running.png)
 
 ### Angular Application Running
 
-![Angular Application Running](Submission-Screenshots/Server/10-Angular-App-Running.png)
+![Angular Application Running](Submission-Screenshots/10-Angular-App-Running.png)
 
 ## Installation
 
