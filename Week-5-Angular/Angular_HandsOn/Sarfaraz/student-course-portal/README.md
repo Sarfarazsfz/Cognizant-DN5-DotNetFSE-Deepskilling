@@ -40,23 +40,23 @@ The project covers the following Angular topics:
 
 ### Home Page
 
-![Home Page](Submission-Screenshots/home-page.png)
+![Home Page](Submission-Screenshots/01-Dashboard.png)
 
 ### Course List
 
-![Course List](Submission-Screenshots/course-list.png)
+![Course List](Submission-Screenshots/02-Course-Catalog.png)
 
 ### Enrollment Form
 
-![Enrollment Form](Submission-Screenshots/enrollment-form.png)
+![Enrollment Form](Submission-Screenshots/03-Enrollment-Form.png)
 
 ### NgRx Store Integration
 
-![NgRx Store](Submission-Screenshots/ngrx-store.png)
+![NgRx Store](Submission-Screenshots/04-Reactive-Enrollment.png)
 
 ### Unit Test Results
 
-![Unit Tests](Submission-Screenshots/unit-test-results.png)
+![Unit Tests](Submission-Screenshots/07-ng-test-success.png)
 
 ## Installation
 
