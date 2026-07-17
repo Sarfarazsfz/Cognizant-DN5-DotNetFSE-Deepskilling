@@ -1,10 +1,10 @@
 # Student Course Portal
 
-Student Course Portal is an Angular-based web application developed as part of the Cognizant Digital Nurture 5.0 Angular Hands-On exercises. The application demonstrates the implementation of core Angular concepts including components, data binding, directives, forms, routing, HTTP communication, state management using NgRx, and unit testing.
+Student Course Portal is an Angular-based web application developed as part of the Cognizant Digital Nurture 5.0 Angular Hands-On exercises. The project demonstrates the implementation of Angular fundamentals and advanced concepts including routing, forms, HTTP communication, state management with NgRx, and unit testing.
 
 ## Project Objective
 
-The objective of this project is to provide a simple portal where students can view available courses, manage enrollments, and interact with different features implemented throughout the Angular learning modules.
+The objective of this project is to provide a student portal where users can browse courses, enroll in available programs, manage profile information, and explore features implemented throughout the Angular learning modules.
 
 ## Technologies Used
 
@@ -18,49 +18,67 @@ The objective of this project is to provide a simple portal where students can v
 - Jasmine
 - Karma
 
-## Implemented Concepts
-
-The project covers the following Angular topics:
+## Angular Concepts Covered
 
 - Components and Templates
 - Data Binding
-- Directives
+- Structural and Attribute Directives
 - Pipes
-- Template Driven Forms
+- Template-Driven Forms
 - Reactive Forms
 - Services and Dependency Injection
 - Routing and Navigation
 - HTTP Client
 - Route Guards
 - Interceptors
-- NgRx Store
+- State Management using NgRx
 - Unit Testing
 
 ## Application Screenshots
 
-### Home Page
+### Dashboard
 
-![Home Page](Submission-Screenshots/01-Dashboard.png)
+![Dashboard](Submission-Screenshots/App/01-Dashboard.png)
 
-### Course List
+### Course Catalog
 
-![Course List](Submission-Screenshots/02-Course-Catalog.png)
+![Course Catalog](Submission-Screenshots/App/02-Course-Catalog.png)
 
 ### Enrollment Form
 
-![Enrollment Form](Submission-Screenshots/03-Enrollment-Form.png)
+![Enrollment Form](Submission-Screenshots/App/03-Enrollment-Form.png)
 
-### NgRx Store Integration
+### Reactive Enrollment Form
 
-![NgRx Store](Submission-Screenshots/04-Reactive-Enrollment.png)
+![Reactive Enrollment Form](Submission-Screenshots/App/04-Reactive-Enrollment.png)
+
+### Student Profile
+
+![Student Profile](Submission-Screenshots/App/05-Profile-Page.png)
+
+### NgRx Redux DevTools
+
+![NgRx Redux DevTools](Submission-Screenshots/DevTools/06-NgRx-Redux-DevTools.png)
 
 ### Unit Test Results
 
-![Unit Tests](Submission-Screenshots/07-ng-test-success.png)
+![Unit Test Results](Submission-Screenshots/Testing/07-ng-test-success.png)
+
+### Code Coverage Report
+
+![Code Coverage Report](Submission-Screenshots/Testing/08-code-coverage-success.png)
+
+### JSON Server Running
+
+![JSON Server Running](Submission-Screenshots/Server/09-JSON-Server-Running.png)
+
+### Angular Application Running
+
+![Angular Application Running](Submission-Screenshots/Server/10-Angular-App-Running.png)
 
 ## Installation
 
-Clone the repository and install dependencies:
+Install project dependencies:
 
 ```bash
 npm install
@@ -68,13 +86,13 @@ npm install
 
 ## Running the Application
 
-Start Angular application:
+Start the Angular development server:
 
 ```bash
 ng serve
 ```
 
-The application will be available at:
+Open the application in your browser:
 
 ```text
 http://localhost:4200
@@ -82,11 +100,13 @@ http://localhost:4200
 
 ## Running JSON Server
 
+Start the mock backend server:
+
 ```bash
 npm run server
 ```
 
-The backend API will run at:
+API Endpoint:
 
 ```text
 http://localhost:3000
@@ -114,10 +134,13 @@ student-course-portal
 ├── src/
 ├── public/
 ├── db.json
-├── package.json
 ├── angular.json
+├── package.json
+├── package-lock.json
 ├── notes.txt
-└── Submission-Screenshots/
+├── Submission-Screenshots/
+│
+└── README.md
 ```
 
 ## Author
