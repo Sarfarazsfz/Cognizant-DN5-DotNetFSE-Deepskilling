@@ -1,59 +1,130 @@
-# StudentCoursePortal
+# Student Course Portal
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.32.
+Student Course Portal is an Angular-based web application developed as part of the Cognizant Digital Nurture 5.0 Angular Hands-On exercises. The application demonstrates the implementation of core Angular concepts including components, data binding, directives, forms, routing, HTTP communication, state management using NgRx, and unit testing.
 
-## Development server
+## Project Objective
 
-To start a local development server, run:
+The objective of this project is to provide a simple portal where students can view available courses, manage enrollments, and interact with different features implemented throughout the Angular learning modules.
+
+## Technologies Used
+
+- Angular 20
+- TypeScript
+- RxJS
+- NgRx
+- Angular Router
+- Angular Forms
+- JSON Server
+- Jasmine
+- Karma
+
+## Implemented Concepts
+
+The project covers the following Angular topics:
+
+- Components and Templates
+- Data Binding
+- Directives
+- Pipes
+- Template Driven Forms
+- Reactive Forms
+- Services and Dependency Injection
+- Routing and Navigation
+- HTTP Client
+- Route Guards
+- Interceptors
+- NgRx Store
+- Unit Testing
+
+## Application Screenshots
+
+### Home Page
+
+![Home Page](Submission-Screenshots/home-page.png)
+
+### Course List
+
+![Course List](Submission-Screenshots/course-list.png)
+
+### Enrollment Form
+
+![Enrollment Form](Submission-Screenshots/enrollment-form.png)
+
+### NgRx Store Integration
+
+![NgRx Store](Submission-Screenshots/ngrx-store.png)
+
+### Unit Test Results
+
+![Unit Tests](Submission-Screenshots/unit-test-results.png)
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+npm install
+```
+
+## Running the Application
+
+Start Angular application:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+The application will be available at:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Running JSON Server
 
 ```bash
-ng generate --help
+npm run server
 ```
 
-## Building
+The backend API will run at:
 
-To build the project run:
-
-```bash
-ng build
+```text
+http://localhost:3000
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Running Tests
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Execute unit tests:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+Generate code coverage:
 
 ```bash
-ng e2e
+ng test --code-coverage
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## Project Structure
 
-## Additional Resources
+```text
+student-course-portal
+│
+├── src/
+├── public/
+├── db.json
+├── package.json
+├── angular.json
+├── notes.txt
+└── Submission-Screenshots/
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Author
+
+Md Sarfaraz Alam
+
+B.Tech Computer Science and Engineering
+VFSTR University, Guntur
+
+Cognizant Digital Nurture 5.0 – Angular Hands-On Project
