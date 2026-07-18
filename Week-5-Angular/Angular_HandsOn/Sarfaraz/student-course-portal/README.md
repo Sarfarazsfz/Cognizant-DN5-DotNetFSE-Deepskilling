@@ -1,10 +1,37 @@
 # Student Course Portal
 
-Student Course Portal is an Angular-based web application developed as part of the Cognizant Digital Nurture 5.0 Angular Hands-On exercises. The project demonstrates the implementation of Angular fundamentals and advanced concepts including routing, forms, HTTP communication, state management with NgRx, and unit testing.
+Student Course Portal is an Angular-based web application developed as part of the Cognizant Digital Nurture 5.0 Angular Hands-On exercises. The project demonstrates Angular fundamentals and advanced concepts including routing, forms, HTTP communication, state management with NgRx, and unit testing.
+
+## Live Demo
+
+**Frontend (Vercel)**
+
+https://cognizant-dn-5-dot-net-fse-deepskil.vercel.app/
+
+**Backend API (Render)**
+
+https://student-course-portal-api.onrender.com
+
+---
 
 ## Project Objective
 
-The objective of this project is to provide a student portal where users can browse courses, enroll in available programs, manage profile information, and explore features implemented throughout the Angular learning modules.
+The objective of this project is to provide a student portal where users can browse available courses, enroll in programs, manage profile information, and demonstrate the Angular concepts covered throughout the Cognizant Digital Nurture 5.0 learning modules.
+
+## Features
+
+- Browse available courses
+- Student enrollment
+- Profile management
+- Angular Routing
+- Template-driven Forms
+- Reactive Forms
+- HTTP Client integration
+- Route Guards
+- HTTP Interceptors
+- NgRx State Management
+- Unit Testing using Jasmine & Karma
+- Mock REST API using JSON Server
 
 ## Technologies Used
 
@@ -14,6 +41,7 @@ The objective of this project is to provide a student portal where users can bro
 - NgRx
 - Angular Router
 - Angular Forms
+- Angular Material
 - JSON Server
 - Jasmine
 - Karma
@@ -22,15 +50,15 @@ The objective of this project is to provide a student portal where users can bro
 
 - Components and Templates
 - Data Binding
-- Structural and Attribute Directives
+- Directives
 - Pipes
 - Template-Driven Forms
 - Reactive Forms
-- Services and Dependency Injection
-- Routing and Navigation
+- Services & Dependency Injection
+- Routing & Navigation
 - HTTP Client
 - Route Guards
-- Interceptors
+- HTTP Interceptors
 - State Management using NgRx
 - Unit Testing
 
@@ -78,49 +106,57 @@ The objective of this project is to provide a student portal where users can bro
 
 ## Installation
 
-Install project dependencies:
+Clone the repository
+
+```bash
+git clone https://github.com/Sarfarazsfz/Cognizant-DN5-DotNetFSE-Deepskilling.git
+```
+
+Go to the project directory
+
+```bash
+cd Week-5-Angular/Angular_HandsOn/Sarfaraz/student-course-portal
+```
+
+Install dependencies
 
 ```bash
 npm install
 ```
 
-## Running the Application
+## Run Locally
 
-Start the Angular development server:
+Start Angular application
 
 ```bash
 ng serve
 ```
 
-Open the application in your browser:
+Open
 
 ```text
 http://localhost:4200
 ```
 
-## Running JSON Server
-
-Start the mock backend server:
+Start JSON Server
 
 ```bash
 npm run server
 ```
 
-API Endpoint:
+API Endpoint
 
 ```text
 http://localhost:3000
 ```
 
-## Running Tests
-
-Execute unit tests:
+## Run Unit Tests
 
 ```bash
 ng test
 ```
 
-Generate code coverage:
+Generate code coverage
 
 ```bash
 ng test --code-coverage
@@ -137,17 +173,16 @@ student-course-portal
 ├── angular.json
 ├── package.json
 ├── package-lock.json
-├── notes.txt
 ├── Submission-Screenshots/
-│
 └── README.md
 ```
 
 ## Author
 
-Md Sarfaraz Alam
+**Md Sarfaraz Alam**
 
 B.Tech Computer Science and Engineering
+
 VFSTR University, Guntur
 
 Cognizant Digital Nurture 5.0 – Angular Hands-On Project
