@@ -3,7 +3,9 @@ import { HttpInterceptorFn } from '@angular/common/http';
 export const authInterceptor: HttpInterceptorFn = (req, next) => {
   // Skip the Authorization header for local json-server (localhost:3000)
   // json-server does not support preflight CORS with Authorization headers by default.
-  if (req.url.startsWith('http://localhost:3000')) {
+
+  // Skip the Authorization header for Render json-server
+  if (req.url.startsWith('https://student-course-portal-api.onrender.com')) {
     return next(req);
   }
 

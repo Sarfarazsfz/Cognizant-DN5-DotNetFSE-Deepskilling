@@ -8,7 +8,7 @@ import { Course } from '../models/course.model';
   providedIn: 'root'
 })
 export class CourseService {
-  private apiUrl = 'http://localhost:3000/courses';
+  private apiUrl = 'https://student-course-portal-api.onrender.com/courses';
 
   constructor(private http: HttpClient) {}
 

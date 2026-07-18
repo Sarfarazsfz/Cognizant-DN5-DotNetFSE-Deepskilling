@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class EnrollmentService {
-  private apiUrl = 'http://localhost:3000';
+  private apiUrl = 'https://student-course-portal-api.onrender.com';
 
   constructor(private http: HttpClient) {}
 
