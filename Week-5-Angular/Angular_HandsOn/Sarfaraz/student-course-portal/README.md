@@ -2,16 +2,6 @@
 
 Student Course Portal is an Angular-based web application developed as part of the Cognizant Digital Nurture 5.0 Angular Hands-On exercises. The project demonstrates Angular fundamentals and advanced concepts including routing, forms, HTTP communication, state management with NgRx, and unit testing.
 
-## Live Demo
-
-**Frontend (Vercel)**
-
-https://cognizant-dn-5-dot-net-fse-deepskil.vercel.app/
-
-**Backend API (Render)**
-
-https://student-course-portal-api.onrender.com
-
 ---
 
 ## Project Objective
